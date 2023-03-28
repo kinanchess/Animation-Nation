@@ -6526,6 +6526,13 @@ let cards = [
     author: 'Marion',
     githubLink: 'https://github.com/marionjudy13'
   },
+  {
+    artName: 'SquareMove',
+    pageLink: './Art/SquareMove/index.html',
+    imageLink: './Art/SquareMove/SquareMove.gif',
+    author: 'kinan',
+    githubLink: 'https://github.com/kinanchess'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+

@@ -1,0 +1,36 @@
+.parent {
+    background-color: hsla(200, 100%, 20%);
+    height: 400px;
+    width: 400px;
+}
+
+.child {
+    background-color: red;
+    height: 50%;
+    width: 50%;
+    animation: square-move 1s ease-in forwards infinite alternate;
+}
+
+.parent:hover .child{
+   animation-play-state: paused;
+}
+
+@keyframes square-move {
+    0% {
+        background-color: orange;
+        transform: translateX(0);;
+       }
+    33% {
+        transform: translatey(100%);;
+       }
+    50% {
+        background-color: red;
+       }
+    66% {
+        transform: translateX(100%) translateY(100%);
+       }
+    100% {
+        background-color: aqua;
+     transform: translateX(100%);;
+    }
+}
